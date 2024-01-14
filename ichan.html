@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="with-device-width, initial-scale-1.0" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>ICHAN</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ad02aa6122.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>   
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="IMAGES/logo1.1.png" class="logo" />
+          <ul id="menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p class="header-text-small">Aspiring Software Engineer</p>
+          <h1>Hi, I'm <span class="header-text-name">ichan</span><br />kun</h1>
+        </div>
+      </div>
+    </div>
+    <!------------About Me---------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="IMAGES/Personal picture.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-info">
+              An excellent and talented newly graduate Computer Engineer, who
+              wanted to fill an executive part in our society. Capable of
+              working independently with minimum supervision and committed to
+              providing high quality service to every project. To be role model
+              to others by means of sharing my knowledge, skills, talent and
+              strength in this kind of career.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Quality Assurance</span><br />Software Testing</li>
+                <li>
+                  <span>Web Development</span><br />HTML, CSS & JavaScript
+                </li>
+                <li><span>Technical Support</span><br />Hardware & Software</li>
+                <li><span>UI/UX</span><br />Designing Web/App using Figma</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>June 2022 - August 2022</span><br />Dev & Tech Intern at
+                  AGORA PH
+                </li>
+                <li>
+                  <span>June 2019 - July 2019</span><br />Office Clerk at
+                  Municipality of Plaridel, Bulacan
+                </li>
+                <li>
+                  <span>November 2019 - December 2019</span><br />Intern at PLDT
+                  Plaridel, Bulacan
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2019 - 2023</span><br />BS Computer Engineering at LCUP
+                </li>
+                <li><span>2017 - 2019</span><br />Senior HS - STEM at LCUP</li>
+                <li><span>2013 - 2017</span><br />Junior HS at DFDJNHS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------My Services----------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-sharp fa-solid fa-code-branch"></i>
+            <h2>Software Quality Assurance</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
+              reprehenderit eaque nostrum illo id atque autem! Eligendi
+              veritatis, ullam eos accusantium iure, recusandae minus, velit
+              eaque et quo quia.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
+              reprehenderit eaque nostrum illo id atque autem! Eligendi
+              veritatis, ullam eos accusantium iure, recusandae minus, velit
+              eaque et quo quia.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut
+              reprehenderit eaque nostrum illo id atque autem! Eligendi
+              veritatis, ullam eos accusantium iure, recusandae minus, velit
+              eaque et quo quia.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------My Projects---------------------->
+    <div id="project">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="IMAGES/work-1.png" />
+            <div class="layer">
+              <h3>Android-Based Remote Control With Voice Recognition</h3>
+              <p>
+                Tech: Arduino Uno, Relay Module, Bluetooth, Arduino IDE (C++) &
+                MIT App Inventor (Block-based programming).
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="IMAGES/work-2.png" />
+            <div class="layer">
+              <h3>Employee Information Management System</h3>
+              <p>Tech: Visual Studio (VB.NET & MySQL).</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="IMAGES/work-3.png" />
+            <div class="layer">
+              <h3>UI/UX Design of Sunny Side Up Application</h3>
+              <p>Designing User Interface through Figma.</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+      </div>
+    </div>
+    <!-------------Contact Me----------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >1christian.villafuerte@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>09066454881</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://linkedin.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/Christian Villafuerte (CV).pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; ICHAN. Made using HTML, CSS & JavaScript</p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+  </body>
+</html>
